@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2382" started-at="2020-04-02T20:59:23 IST" finished-at="2020-04-02T20:59:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2382" started-at="2020-04-02T20:59:23 IST" finished-at="2020-04-02T20:59:26 IST">
+      <class name="TestCases.TestCase001_POJO_Serialization">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestCase001_POJO_Serialization@3043fe0e]" name="setup" is-config="true" duration-ms="56" started-at="2020-04-02T20:59:23 IST" finished-at="2020-04-02T20:59:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TestCase001_POJO_Serialization@3043fe0e]" name="setUp" is-config="true" duration-ms="399" started-at="2020-04-02T20:59:23 IST" finished-at="2020-04-02T20:59:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePostWithSerialization()[pri:1, instance:TestCases.TestCase001_POJO_Serialization@3043fe0e]" name="validatePostWithSerialization" duration-ms="1800" started-at="2020-04-02T20:59:24 IST" finished-at="2020-04-02T20:59:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostWithSerialization -->
+        <test-method status="PASS" signature="validatedeSerialization()[pri:2, instance:TestCases.TestCase001_POJO_Serialization@3043fe0e]" name="validatedeSerialization" duration-ms="88" started-at="2020-04-02T20:59:26 IST" finished-at="2020-04-02T20:59:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedeSerialization -->
+      </class> <!-- TestCases.TestCase001_POJO_Serialization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
