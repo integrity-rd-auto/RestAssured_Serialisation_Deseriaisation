@@ -28,7 +28,7 @@ public class TestCase001_POJO_Serialization_DeSeralisation extends TestBase{
 		
 		_Info info2 = new _Info("Info2_Address",4321,"info2@info.com");
 		
-	    _Post post = new _Post("1301","title","author",new _Info[] {info1,info2});
+	    _Post post = new _Post("1302","title","author",new _Info[] {info1,info2});
 			
 		logger.info("######TestCase001 Starts######");
 
@@ -48,13 +48,13 @@ public class TestCase001_POJO_Serialization_DeSeralisation extends TestBase{
 	public void validatedeSerialization() {
 		
 		
-		_Post post = get("http://localhost:3000/posts/1301").as(_Post.class);
+		_Post post = get("http://localhost:3000/posts/1302").as(_Post.class);
 		
 		
 		
 		System.out.println("ID is:" + post.getId());
 		
-		Assert.assertEquals(post.getId(), "1301");
+		Assert.assertEquals(post.getId(), "1302");
 		
 		}	
 }
